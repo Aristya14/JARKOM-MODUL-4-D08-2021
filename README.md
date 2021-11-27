@@ -9,11 +9,12 @@
 pertama yang perlu dilakukan adalah membuat topologi seperti di soal.
 ![1](topologicpt.jpg)
 
-Setalah itu mengatur IP untuk masing-masing interface yang ada di setiap device sesuai dengan pembagian subnet pada pohon VLSM. Dan tidak lupa port status dalam status `ON`
+Setalah itu mengatur IP untuk masing-masing interface yang ada di setiap device sesuai dengan pembagian subnet pada pohon VLSM. Dan tidak lupa port status dalam status `ON`.
 ![1](ipvlsm.jpg)
 
 Melakukan routing pada setiap Router.
 ![1](routevlsm.jpg)
+
 1.Foosha
 ``` bash
     10.25.8.0/22 via 10.25.0.10
@@ -64,7 +65,8 @@ Melakukan routing pada setiap Router.
 0.0.0.0/0 via 10.25.1.1
 ```
 
-setelah itu dapat melakukan ping dengan `add simple pdu` pada router atau pc.
+Setelah itu dapat melakukan ping dengan `add simple pdu` pada router atau pc.
 
-Jika berhasil akan muncul status succesfull
+Jika berhasil akan muncul status succesfull.
+
 ![1](pingvlsm.jpg)
