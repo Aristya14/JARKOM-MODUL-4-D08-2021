@@ -113,3 +113,7 @@ Melakukan subnetting terhadap topologi dan dikelompokkan dengan jarak terdekat.
 ![5](./img/5.jpg)
 
 ![6](./img/6.jpg)
+
+Perhitungan Alamat IP berdasarkan NID dan juga Netmask Menggunakan TREE Sebagai Berikut:
+
+![6](./img/treecidr.jpg)
