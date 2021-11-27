@@ -6,7 +6,7 @@
 ## VLSM ( Variable Length Subnet Masking) - CPT
 
 ### Praktik pada CPT
-pertama yang perlu dilakukan adalah membuat topologi seperti di soal.
+Pertama yang perlu dilakukan adalah membuat topologi seperti di soal.
 ![1](topologicpt.jpg)
 
 Setalah itu mengatur IP untuk masing-masing interface yang ada di setiap device sesuai dengan pembagian subnet pada pohon VLSM. Dan tidak lupa port status dalam status `ON`.
@@ -16,7 +16,7 @@ Melakukan routing pada setiap Router.
 
 ![1](routevlsm.jpg)
 
-1.Foosha
+**1.Foosha**
 ``` bash
     10.25.8.0/22 via 10.25.0.10
     10.25.0.128/25 via 10.25.0.10
@@ -30,19 +30,19 @@ Melakukan routing pada setiap Router.
     10.25.12.0/30 via 10.25.0.6
 ```
 
-2.Water 7
+**2.Water 7**
 ``` bash
   0.0.0.0/0 via 10.25.0.9
   10.25.0.128/25 via 10.25.0.14
   10.25.16.0/21 via 10.25.0.14
 ```
 
-3.Pucci
+**3.Pucci**
 ``` bash
 0.0.0.0/0 via 10.25.0.13
 ```
 
-4.Guanhao
+**4.Guanhao**
 ``` bash
 10.25.1.0/24 via 10.25.0.2
 10.25.12.0/22 via 10.25.0.2
@@ -50,18 +50,18 @@ Melakukan routing pada setiap Router.
 10.25.0.16/30 via 10.25.2.2
 ```
 
-5.Alabasta
+**5.Alabasta**
 ``` bash
 0.0.0.0/0 via 10.25.2.1
 ```
 
-6.Oimo
+**6.Oimo**
 ``` bash
 10.25.12.0/22 via 10.25.1.2
 0.0.0.0/0 via 10.25.0.1
 ```
 
-7.Seastone
+**7.Seastone**
 ``` bash
 0.0.0.0/0 via 10.25.1.1
 ```
