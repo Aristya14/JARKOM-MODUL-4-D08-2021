@@ -99,3 +99,17 @@ Jika berhasil akan muncul status succesfull.
 ![1](pingvlsm.jpg)
 
 ## CIDR (Classless Inter Domain Routing)
+
+Melakukan subnetting terhadap topologi dan dikelompokkan dengan jarak terdekat.
+
+![1](./img/1.jpg)
+
+![2](./img/2.jpg)
+
+![3](./img/3.jpg)
+
+![4](./img/4.jpg)
+
+![5](./img/5.jpg)
+
+![6](./img/6.jpg)
