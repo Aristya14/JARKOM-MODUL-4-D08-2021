@@ -5,6 +5,32 @@
 
 ## VLSM ( Variable Length Subnet Masking) - CPT
 
+### Subnetting Pada Topologi
+Berikut merupakan hasil subnetting pada topologi soal
+![messageImage_1637600161044](https://user-images.githubusercontent.com/73290753/143680244-039e031b-2744-4ea6-95a7-9576f74881ce.jpg)
+
+Berikut Merupakan Jumlah IP dan Netmask yang Didapat
+
+| Subnet | Jumlah IP  | Netmask  |
+| :-----: | :-: | :-: |
+| A1 | 1001 | /22 |
+| A2 | 101 | /25 |
+| A3 | 2 | /30 |
+| A4 | 2 | /30 |
+| A5 | 2 | /30 |
+| A6 | 502 | /23 |
+| A7 | 13 | /28 |
+| A8 | 521 | /22 |
+| A9 | 2 | /30 |
+| A10 | 701 | /22 |
+| A11 | 2021 | /21 |
+| A12 | 252 | /24 |
+| A13 | 721 | /22 |
+| Total | 5841 | /19 |
+
+Perhitungan Alamat IP berdasarkan NID dan juga Netmask Menggunakan TREE Sebagai Berikut:
+![messageImage_1638005743197](https://user-images.githubusercontent.com/73290753/143680772-f56044b3-6fd8-4dc8-9a3e-9ae7bec58db7.jpg)
+
 ### Praktik pada CPT
 Pertama yang perlu dilakukan adalah membuat topologi seperti di soal.
 ![1](topologicpt.jpg)
