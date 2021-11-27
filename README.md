@@ -97,3 +97,5 @@ Setelah itu dapat melakukan ping dengan `add simple pdu` pada router atau pc.
 Jika berhasil akan muncul status succesfull.
 
 ![1](pingvlsm.jpg)
+
+## CIDR (Classless Inter Domain Routing)
