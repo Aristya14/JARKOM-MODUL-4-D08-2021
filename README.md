@@ -117,3 +117,10 @@ Melakukan subnetting terhadap topologi dan dikelompokkan dengan jarak terdekat.
 Perhitungan Alamat IP berdasarkan NID dan juga Netmask Menggunakan TREE Sebagai Berikut:
 
 ![6](./img/treecidr.jpg)
+
+Setalah itu mengatur IP untuk masing-masing interface yang ada di setiap device sesuai dengan pembagian subnet pada pohon CIDR
+![6](./img/ipcidr.jpg)
+
+## Kendala
+1. Kesulitan melakukan routing dan ping pada gns3
+2. Pada file .cpt tidak dapat melakukan ping dari server fukurou ke server doriki
