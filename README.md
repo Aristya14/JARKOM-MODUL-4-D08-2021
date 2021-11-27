@@ -13,6 +13,7 @@ Setalah itu mengatur IP untuk masing-masing interface yang ada di setiap device 
 ![1](ipvlsm.jpg)
 
 Melakukan routing pada setiap Router.
+
 ![1](routevlsm.jpg)
 
 1.Foosha
